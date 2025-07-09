@@ -65,6 +65,17 @@ npm install -D playwright
 npx playwright install
 ```
 
+➜ Install TypeScript + ts-node:
+
+```
+npm install -D typescript ts-node @types/node
+```
+
+➜ Initialize TypeScript config:
+```
+npx tsc --init
+```
+
 ## ⚙️ How It Works
 
 1. Logs into LinkedIn automatically.
