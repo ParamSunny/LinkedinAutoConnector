@@ -58,9 +58,9 @@ Just download the linkedin-connector.ts file then open terminal and write
 
 ➜ Install Playwright (with TypeScript support): 
 
-``` npm install -D playwright
-npx playwright install  ```
-
+``` npm install -D playwright ```
+``` npx playwright install ```
+ 
 
 
 ## ⚙️ How It Works
