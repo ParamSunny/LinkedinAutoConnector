@@ -52,7 +52,7 @@ linkedin-connection-sender/
 ---
 
 ## 🚀 Setup
-Just download the linkedin-connector.ts file then open terminal and write
+➜ Just download the linkedin-connector.ts file then open terminal and write
 
 ```
 npm init -y
