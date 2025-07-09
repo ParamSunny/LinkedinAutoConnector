@@ -54,7 +54,9 @@ linkedin-connection-sender/
 ## 🚀 Setup
 Just download the linkedin-connector.ts file then open terminal and write
 
-``` npm init -y ```
+```
+npm init -y
+```
 
 ➜ Install Playwright (with TypeScript support): 
 
@@ -77,5 +79,8 @@ npx playwright install
 
 Inside `src/linkedin-connector.ts`:
 ```ts
+
+await page.fill('#username', 'YOUR_USERNAME/EMIAL');  // <-- Enter your username/email
+await page.fill('#password', 'YOUR_PASSWORD');  // <-- Enter your password
 const searchKeyword = 'YOUR_KEYWORD';   // <-- Your target search keyword
 const maxConnections = 5;            // <-- Limit of connection requests
