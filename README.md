@@ -31,13 +31,21 @@ It searches LinkedIn profiles matching a specific keyword (e.g., “QA Intern”
 ## 📂 Project Structure
 
 linkedin-connection-sender/
+
 │
+
 ├── src/
+
 │ └── linkedin-connector.ts <-- Main Automation Script
+
 │
+
 ├── package.json <-- Project Dependencies
+
 ├── tsconfig.json <-- TypeScript Configuration
+
 ├── Dockerfile <-- Docker Build File
+
 └── README.md <-- Project Documentation
 
 
@@ -45,9 +53,13 @@ linkedin-connection-sender/
 
 ## 🚀 Setup
 Just download the linkedin-connector.ts file then open terminal and write
-` npm init -y ` then
-➜ Install Playwright (with TypeScript support): ` npm install -D playwright
-npx playwright install  `
+
+``` npm init -y ```
+
+➜ Install Playwright (with TypeScript support): 
+
+``` npm install -D playwright
+npx playwright install  ```
 
 
 
