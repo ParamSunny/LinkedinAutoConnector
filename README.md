@@ -95,3 +95,8 @@ await page.fill('#username', 'YOUR_USERNAME/EMIAL');  // <-- Enter your username
 await page.fill('#password', 'YOUR_PASSWORD');  // <-- Enter your password
 const searchKeyword = 'YOUR_KEYWORD';   // <-- Your target search keyword
 const maxConnections = 5;            // <-- Limit of connection requests
+```
+## ⚙️ Run
+```
+npx tsx src/linkedin-connector.ts
+```
